@@ -60,7 +60,7 @@ Danach folgen zwei Transparenz-Kapitel: **Methodik** (wie gerechnet wurde) und d
 
 <img width="466" height="352" alt="image" src="https://github.com/user-attachments/assets/97f683b8-d4a7-44de-ad4d-c171ad7a3079" />
 
-<img width="482" height="435" alt="image" src="https://github.com/user-attachments/assets/1bfc3fff-85ca-472d-aad5-626b61373607" />
+<img width="460" height="242" alt="image" src="https://github.com/user-attachments/assets/910c3bc1-86df-40d9-8695-c9b82d6ae75d" />
 
 ## Daten & Methodik
 
