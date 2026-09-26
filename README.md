@@ -3,9 +3,9 @@
 
 Eine interaktive Data-Storytelling-Seite über den ehemaligen Flughafen Berlin-Tegel: Wie hängen Niederschlag und Grundwasserstand auf dem Gelände zusammen, und was bedeutet das für das neue „Schwammstadt“-Stadtquartier, das dort gerade entsteht?
 
-<img width="935" height="335" alt="image" src="https://github.com/user-attachments/assets/f015bea2-972f-4ccc-bffd-21d51b14249b" /><img width="413" height="203" alt="image" src="https://github.com/user-attachments/assets/2129af1d-cd3d-4d9b-a3ef-34bd38987d57" />
+<img width="935" height="335" alt="image" src="https://github.com/user-attachments/assets/f015bea2-972f-4ccc-bffd-21d51b14249b" />
 
-*Foto: Rehman Abubakr, 2019, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Berlin_Tegel_Airport_(TXL)_-_April_2019_(2).jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), verkleinert und entsättigt.*
+*Rehman Abubakr, 2019, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Berlin_Tegel_Airport_(TXL)_-_April_2019_(2).jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), verkleinert und entsättigt.*
 
 **🔗 Live ansehen:** *https://possidesiree.github.io/tegel-grundwasser/*
 
