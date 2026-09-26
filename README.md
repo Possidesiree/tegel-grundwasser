@@ -58,9 +58,9 @@ Danach folgen zwei Transparenz-Kapitel: **Methodik** (wie gerechnet wurde) und d
 - **Kennzeichnung der Angabenart:** ● Messwert, ∑ Berechnung, ≈ Statistik, ◇ Interpretation, ↗ Extern, ▢ Planung – auf einen Blick erkennbar, was direkt gemessen und was interpretiert ist.
 - Läuft komplett im Browser, ohne Server oder Build-Schritt – eine einzige `index.html`.
 
-![Vorher/Nachher-Vergleichsregler einer Landebahn in Tegel](readme-images/compare.png)
+<img width="466" height="352" alt="image" src="https://github.com/user-attachments/assets/97f683b8-d4a7-44de-ad4d-c171ad7a3079" />
 
-![Interaktive Karte mit den acht Grundwassermessstellen](readme-images/map.png)
+<img width="482" height="435" alt="image" src="https://github.com/user-attachments/assets/1bfc3fff-85ca-472d-aad5-626b61373607" />
 
 ## Daten & Methodik
 
