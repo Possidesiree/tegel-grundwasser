@@ -192,7 +192,7 @@ Eine Internetverbindung wird benötigt, damit Fotos, Kartendaten und Schriftarte
 
 ## Hosting
 
-Die Seite ist für **GitHub Pages** vorbereitet: `index.html` liegt im Repository-Root, GitHub Pages baut daraus automatisch die Live-Version unter `https://possidesiree.github.io/tegel-grundwasser/`.
+Die Seite ist für **GitHub Pages** vorbereitet: `index.html` liegt im Repository-Root, GitHub Pages baut daraus automatisch die Live-Version unter *https://possidesiree.github.io/tegel-grundwasser/*.
 
 ## Kontext
 
