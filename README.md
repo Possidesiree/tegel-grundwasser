@@ -166,7 +166,7 @@ Was wir an den Daten geprüft haben, was auffiel und wie wir damit umgegangen si
 | Niederschlag, Vollständigkeit | 630 Tage in der Datei (01.01.2025–22.09.2026), 571 davon im Analysezeitraum, **keine fehlenden Werte**. An 214 Tagen fiel Niederschlag, die Summe beträgt 675,9 mm. | Keine Ergänzung nötig. |
 | Niederschlag, Prüfstatus | Der DWD kennzeichnet alle Tageswerte mit `partly_checked` (teilweise geprüft). Pro Tag gingen etwa 1.970–2.570 Stationen in die Berechnung des Rasters ein. | Wir verwenden die Werte unverändert und weisen darauf hin, dass der Rasterpunkt keine Messung direkt auf dem Gelände ist. |
 | HYRAS-Versionen | Die ursprüngliche Rohdatei enthielt für 01.01.2025–03.01.2026 zwei Versionen (v6.0 und v6-1), die an 31 Tagen abwichen. | Konsequent **v6-1**; kein Tag wird doppelt gezählt. |
-| Zahlen im Text | Die Seite nennt viele Kennzahlen, die sich beim Ändern der Daten verschieben können. | `build_tegel.py` rechnet 13 Zahlen neu und meldet jede Abweichung (siehe [Qualitätssicherung](#qualitätssicherung)). |
+| Zahlen im Text | Die Seite nennt viele Kennzahlen, die sich beim Ändern der Daten verschieben können. | `build_tegel.py` rechnet 13 Zahlen neu und meldet jede Abweichung . |
 | Rundung | Die Seite zeigt gerundete Werte (z. B. −0,18 m), die Dokumentation die genaueren (−0,183 m). | Rundung kaufmännisch; die genauen Werte stehen in den Popovers „Woher kommt diese Zahl?“. |
 
 ## Wie die Website gebaut ist
