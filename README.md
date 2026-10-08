@@ -162,7 +162,6 @@ Was wir an den Daten geprüft haben, was auffiel und wie wir damit umgegangen si
 | Anzahl Grundwasser-Reihen | Die Datei enthält 10 Reihen, aber nur 8 Messstellen haben Koordinaten (`gwm1-16` und `gwm5-95` nicht). | Nur die 8 Messstellen mit Koordinaten werden verwendet. |
 | Abdeckung | Je Messstelle liegen für 522–553 der 571 Tage Werte vor (91–97 %). An 561 Tagen gibt es mindestens einen Wert, an 488 Tagen alle acht. Die längste Lücke einer Messstelle beträgt 3 Tage. | Veränderungen je Zeitraum nutzen den ersten und letzten **verfügbaren** Messwert. Für Median-Verlauf und Korrelation werden Lücken bis 5 Tage linear interpoliert. |
 | Stark schwankende Messstelle | `gwm32-22-op` schwankt um 2,13 m, die anderen um 0,36–0,95 m. Der Grund lässt sich aus den Daten nicht erklären. | Die Messstelle wird **nicht entfernt**. Zusammengefasst wird mit dem Median, damit sie das Ergebnis nicht dominiert. |
-| Bezugshöhe | Nicht angegeben (siehe [Bezugssystem](#bezugssystem-der-grundwasserwerte)). | Aussagen stützen sich auf Differenzen; absolute Vergleiche sind als solche gekennzeichnet. |
 | Niederschlag, Vollständigkeit | 630 Tage in der Datei (01.01.2025–22.09.2026), 571 davon im Analysezeitraum, **keine fehlenden Werte**. An 214 Tagen fiel Niederschlag, die Summe beträgt 675,9 mm. | Keine Ergänzung nötig. |
 | Niederschlag, Prüfstatus | Der DWD kennzeichnet alle Tageswerte mit `partly_checked` (teilweise geprüft). Pro Tag gingen etwa 1.970–2.570 Stationen in die Berechnung des Rasters ein. | Wir verwenden die Werte unverändert und weisen darauf hin, dass der Rasterpunkt keine Messung direkt auf dem Gelände ist. |
 | HYRAS-Versionen | Die ursprüngliche Rohdatei enthielt für 01.01.2025–03.01.2026 zwei Versionen (v6.0 und v6-1), die an 31 Tagen abwichen. | Konsequent **v6-1**; kein Tag wird doppelt gezählt. |
@@ -257,7 +256,7 @@ Für die **Tegeler Stadtheide** und das **CityLAB Berlin**:
 
 | Begriff | Bedeutung |
 |---|---|
-| Grundwasserstand (Pegel) | Höhe des Grundwasserspiegels an einer Messstelle, hier in Metern angegeben (Bezug: siehe [Bezugssystem](#bezugssystem-der-grundwasserwerte)). |
+| Grundwasserstand (Pegel) | Höhe des Grundwasserspiegels an einer Messstelle, hier in Metern angegeben. |
 | Messstelle (`gwm…`) | Stelle auf dem Gelände, an der der Grundwasserstand täglich erfasst wird. Die Kennungen stammen vom Datengeber. |
 | Niederschlagshöhe | Regenmenge in Millimetern. 1 mm entspricht 1 Liter pro Quadratmeter ([DWD-Glossar](https://www.dwd.de/DE/service/lexikon/begriffe/N/Niederschlagshoehe.html)). |
 | HYRAS / Rasterpunkt | Täglicher Niederschlagsdatensatz des DWD auf einem Gitter von 1 × 1 km. Wir nutzen den Gitterpunkt über Tegel. |
