@@ -299,7 +299,7 @@ Alle Zahlen der Website lassen sich über `python src/build_tegel.py` aus den Ro
 - Das vollständige Quellenverzeichnis steht am Ende der Website.
 
 ## Team und Kontakt
-| | |
+
 |---|---|
 | **Kurs** | Big Data Analytics, HTW Berlin in Kooperation mit dem CityLAB Berlin, 2026 |
 | **Projektteam** | Team „Data in Motion“ |
