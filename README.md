@@ -38,7 +38,7 @@ Auf dem 500 ha großen ehemaligen Flughafengelände entstehen die Urban Tech Rep
 
 ## Projektverlauf
 
-Vom ersten Thema bis zur fertigen Website. Die letzte Spalte zeigt, wo der Schritt in der Abschlusspräsentation ([`/Praesentation_Tegel_Schwammstadt.pdf`](/Praesentation_Tegel_Schwammstadt.pdf)) vorkommt.
+Vom ersten Thema bis zur fertigen Website. Die letzte Spalte zeigt, wo der Schritt in der Abschlusspräsentation ([`Praesentation_Tegel_Schwammstadt.pdf`](/Praesentation_Tegel_Schwammstadt.pdf)) vorkommt.
 
 | Schritt | Was passiert ist | Folie |
 |---|---|---|
