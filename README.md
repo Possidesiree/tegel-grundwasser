@@ -159,6 +159,22 @@ Alle aufbereiteten Dateien in `data/processed/` sind UTF-8, Komma-getrennt, Dezi
 - **Zeitversetzte Korrelation:** Pearson-Korrelation zwischen der 30-Tage-Regensumme und der 30-Tage-Grundwasseränderung. Die Regensumme wird um 0–42 Tage verschoben (`r30.shift(lag)`). Drei Varianten: Mittelwert der Messstellen, Median der Messstellen, je Messstelle einzeln (danach Median). Messlücken bis 5 Tage werden linear interpoliert. Ergebnis: `data/processed/korrelation_regen_grundwasser_verschiebung.csv`.
 - **Qualitätsprüfung:** `build_tegel.py` vergleicht 13 im Text genannte Zahlen mit den neu berechneten Werten und meldet Abweichungen.
 
+## Power-BI-Bericht
+
+`Grundwasser.pbix` enthält die Auswertung als interaktiven Bericht mit den Seiten *Regen*, *Frühjahr 2025*, *Regen & Grundwasser*, *Verzögerung*, *19. April 2026* und *Gesamtbilanz*. Die Kennzahlen (Regensummen, Grundwasser-Mediane, zeitversetzte Korrelation) werden im Bericht selbst aus den Rohdaten berechnet – Python ist dafür nicht nötig.
+
+Voraussetzung: [Power BI Desktop](https://www.microsoft.com/de-de/power-platform/products/power-bi/desktop) (kostenlos, nur Windows).
+
+**Bericht mit neuen Daten aktualisieren:**
+1. Die neuen CSV-Dateien in `data/raw/` ablegen. Dateinamen und Spaltenaufbau müssen gleich bleiben (siehe [`data/README.md`](data/README.md)).
+2. `Grundwasser.pbix` mit Power BI Desktop öffnen.
+3. *Start → Aktualisieren* klicken. Power BI liest die CSV-Dateien neu ein und berechnet alle Diagramme und Kennzahlen neu – man erhält so die neue Bewertung.
+4. Bericht speichern (*Datei → Speichern*).
+
+**Falls eine Datei nicht gefunden wird** (z. B. weil das Repository an einem anderen Ort liegt): *Start → Daten transformieren → Datenquelleneinstellungen* öffnen, die betroffene Quelle auswählen, *Quelle ändern…* klicken und den Pfad auf die Datei in `data/raw/` setzen. Danach *Schließen & übernehmen* und erneut *Aktualisieren*.
+
+> Die Kennzahlen für feste Zeiträume (z. B. „trockenes Frühjahr 2025“, „nach nassem Juli 2025“) bleiben gleich, solange sich die alten Messwerte nicht ändern. Neue Daten wirken sich vor allem auf die Gesamtbilanz, die Zeitreihen und die Korrelation aus.
+
 ## Datenqualität
 
 Was wir an den Daten geprüft haben, was auffiel und wie wir damit umgegangen sind.
