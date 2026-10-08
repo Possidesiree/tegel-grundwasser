@@ -28,16 +28,6 @@ Studentisches Projekt im Kurs *Big Data* an der HTW Berlin (2026). Wir haben unt
 14. [Lizenzen und Quellen](#lizenzen-und-quellen)
 15. [Team und Kontakt](#team-und-kontakt)
 
-1. [Fragestellung](#fragestellung)
-2. [Ergebnisse](#ergebnisse)
-3. [Repository-Struktur](#repository-struktur)
-4. [Daten](#daten)
-5. [Methodik](#methodik)
-6. [Selbst ausführen](#selbst-ausführen)
-7. [Weiterarbeiten – Hinweise für Projektpartner](#weiterarbeiten--hinweise-für-projektpartner)
-8. [Grenzen der Auswertung](#grenzen-der-auswertung)
-9. [Lizenzen und Quellen](#lizenzen-und-quellen)
-
 ---
 
 ## Fragestellung
