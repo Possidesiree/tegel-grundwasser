@@ -9,6 +9,13 @@ Studentisches Projekt im Kurs *Big Data* an der HTW Berlin (2026). Wir haben unt
 ![Screenshot der Website](docs/screenshots/hero.png)
 
 ---
+**Analyse ansehen:** [`Grundwasser.pbix`](Grundwasser.pbix) mit Power BI Desktop öffnen. Der Bericht enthält die vollständige Auswertung mit allen Diagrammen und Kennzahlen (siehe [Power-BI-Bericht](#power-bi-bericht)).
+
+| Seite „Regen & Grundwasser“ | Seite „Verzögerung“ |
+|---|---|
+| ![Power BI – Seite Regen & Grundwasser](docs/screenshots/powerbi-regen-grundwasser.png) | ![Power BI – Seite Verzögerung](docs/screenshots/powerbi-verzoegerung.png) |
+
+---
 
 ## Inhalt
 
