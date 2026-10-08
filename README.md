@@ -45,13 +45,15 @@ Analysezeitraum: **01.03.2025 – 22.09.2026**, 8 Grundwassermessstellen, tägli
 | Grundwasser gesamt (01.03.2025–22.09.2026), Median | −0,425 m | Statistik |
 | Schwankungsbreite Messstelle `gwm32-22-op` | 2,13 m | Berechnung |
 | Stärkster Zusammenhang Regen → Grundwasser | nach 9–11 Tagen, r ≈ 0,43–0,63 | Statistik |
+| Höchster Grundwasserstand aller 8 Messstellen (22.09.2026) | `gwm21-23-op`, 31,726 m | Messwert |
 
 **Kurz gesagt:**
 
 1. Trockenphasen sind im Grundwasser sichtbar: Im Frühjahr 2025 sinken alle 8 Messstellen.
 2. Nach starken Regenphasen steigen viele Messstellen wieder – **zeitversetzt** um etwa ein bis zwei Wochen.
 3. Die Reaktion ist von Messstelle zu Messstelle sehr unterschiedlich.
-4. Am Ende des Zeitraums liegen alle 8 Messstellen niedriger als zu Beginn. Regen allein erklärt das nicht; auch Verdunstung, Entnahmen, Bebauung und Versiegelung beeinflussen das Grundwasser.
+4. Die Messstellen liegen auf unterschiedlichem Niveau: Den höchsten Grundwasserstand hat fast immer `gwm21-23-op` am Ostrand des Geländes (an 547 von 561 Tagen mit Messwerten; 31,726 m am 22.09.2026, höchster Wert im Zeitraum 32,157 m). Die Stände nehmen grob von Ost nach West ab, bis auf 27,0 m an `gwm32-22-op`. Die Seite zeigt vor allem die *Veränderung*, nicht den absoluten Stand.
+5. Am Ende des Zeitraums liegen alle 8 Messstellen niedriger als zu Beginn. Regen allein erklärt das nicht; auch Verdunstung, Entnahmen, Bebauung und Versiegelung beeinflussen das Grundwasser.
 
 > Korrelation ist keine Kausalität. Die Auswertung zeigt einen statistischen Zusammenhang, keinen Beweis für Ursache und Wirkung.
 
