@@ -4,7 +4,7 @@
 
 Studentisches Projekt im Kurs *Big Data* an der HTW Berlin (2026). Wir haben untersucht, ob und wie das Grundwasser auf dem ehemaligen Flughafengelände Berlin-Tegel auf Niederschlag reagiert. Die Ergebnisse haben wir als Data Story für ein breites Publikum (ab ca. 12 Jahren) aufbereitet.
 
-**Ergebnis ansehen:** [`docs/index.html`](docs/index.html) im Browser öffnen. Über GitHub Pages wird der Ordner `docs/` direkt als Website veröffentlicht (siehe [Website veröffentlichen](#website-veröffentlichen)).
+**Ergebnis ansehen:** **[Website öffnen](https://possidesiree.github.io/tegel-grundwasser/)** – die Data Story läuft direkt über GitHub Pages im Browser, ohne Installation (siehe [Website veröffentlichen](#website-veröffentlichen)). Lokal: [`docs/index.html`](docs/index.html) im Browser öffnen.
 
 ![Screenshot der Website](docs/screenshots/hero.png)
 
@@ -120,7 +120,7 @@ Das Skript liest `data/raw/`, prüft die Kennzahlen, schreibt `data/processed/` 
 
 ### Website veröffentlichen
 
-Auf GitHub: *Settings → Pages → Branch `main`, Ordner `/docs`*. Danach ist die Website unter `https://<name>.github.io/<repository>/` erreichbar.
+Auf GitHub: *Settings → Pages → Branch `main`, Ordner `/docs`*. Danach ist die Website unter [https://possidesiree.github.io/tegel-grundwasser/](https://possidesiree.github.io/tegel-grundwasser/) erreichbar.
 
 ## Weiterarbeiten – Hinweise für Projektpartner
 
