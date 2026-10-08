@@ -272,7 +272,7 @@ Für die **Tegeler Stadtheide** und das **CityLAB Berlin**:
 
 Das Projekt ist in vier Schritten entstanden (ausführlich mit Prompts im [KI-Verzeichnis](nachweise/Eigenstaendigkeitserklaerung_KI-Verzeichnis.pdf)):
 
-1. **Datenanalyse durch das Team, ohne KI.** Grundwasser- und Niederschlagsdaten wurden vom Team beschafft, aufbereitet und in Power BI ausgewertet ([`power-bi/Grundwasser.pbix`](power-bi/Grundwasser.pbix), mit Power BI Desktop zu öffnen). Power BI eignete sich für das Nachvollziehen der Auswertung, aber nur eingeschränkt für eine Data Story, die ein breites Publikum Schritt für Schritt führt.
+1. **Datenanalyse durch das Team, ohne KI.** Grundwasser- und Niederschlagsdaten wurden vom Team beschafft, aufbereitet und in Power BI ausgewertet ([`power-Grundwasser.pbix`](Grundwasser.pbix), mit Power BI Desktop zu öffnen). Power BI eignete sich für das Nachvollziehen der Auswertung, aber nur eingeschränkt für eine Data Story, die ein breites Publikum Schritt für Schritt führt.
 2. **Data Story durch das Team, ohne KI.** Fragestellung, Aufbau, Kernaussagen, Zahlen und Ausblick hat das Team selbst geschrieben.
 3. **Umsetzung als Website mit KI-Unterstützung (Claude).** Claude wurde eingesetzt, um die Story als HTML-Website mit Diagrammen und Scrollytelling umzusetzen, Quellen zu recherchieren und einzubauen, die Power-BI-Logik als Python-Skript (`src/build_tegel.py`) nachzubauen und die Fakten der Story gegen die Daten zu prüfen. Auch Teile dieser Dokumentation (README, technische Beschreibung) sind mit Claude entstanden und vom Team geprüft.
 4. **Gestaltungsideen mit Figma Make.** Als Orientierung für die Optik (Bildsprache, Aufbau von Titelbereich und Kennzahlen-Karten) wurde zusätzlich das KI-Werkzeug Figma Make genutzt. Code daraus wurde nicht übernommen; die Website selbst ist in `src/web/template.html` umgesetzt.
@@ -301,10 +301,15 @@ Alle Zahlen der Website lassen sich über `python src/build_tegel.py` aus den Ro
 - Das vollständige Quellenverzeichnis steht am Ende der Website.
 
 ## Team und Kontakt
-
 | | |
 |---|---|
-| Projektteam | [Thi Huyen Phan(ThiHuyen.Phan@student.htw-berlin.de); Ahmad Alkridi(Ahmad.Alkridi@student.htw-berlin.de); Desiree Possi(Desiree.Possi@Student.HTW-Berlin.de ), Enes Kulanoglu(Enes.Kulanoglu@student.htw-berlin.de)] |
-| Kurs | Big Data Analytics,Team: Data in Motion, HTW Berlin in Cooperation mit CityLAB Berlin, 2026 |
+| **Kurs** | Big Data Analytics, HTW Berlin in Kooperation mit dem CityLAB Berlin, 2026 |
+| **Projektteam** | Team „Data in Motion“ |
 
-Fragen, Fehler oder Verbesserungsvorschläge gern als [Issue](../../issues) in diesem Repository :)
+| Name | Kontakt |
+|---|---|
+| Thi Huyen Phan | [ThiHuyen.Phan@student.htw-berlin.de](mailto:ThiHuyen.Phan@student.htw-berlin.de) |
+| Ahmad Alkridi | [Ahmad.Alkridi@student.htw-berlin.de](mailto:Ahmad.Alkridi@student.htw-berlin.de) |
+| Desiree Possi | [Desiree.Possi@student.htw-berlin.de](mailto:Desiree.Possi@student.htw-berlin.de) |
+| Enes Kulanoglu | [Enes.Kulanoglu@student.htw-berlin.de](mailto:Enes.Kulanoglu@student.htw-berlin.de) |
+
