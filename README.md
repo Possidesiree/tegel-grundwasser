@@ -118,10 +118,6 @@ Danach folgen **Methodik** und **Quellenverzeichnis** (jede Zahl ist verlinkt).
 ├── src/
 │   ├── build_tegel.py      Auswertung + Export + Website-Build
 │   └── web/                Vorlage der Website (HTML/CSS/JS) und Leaflet-C
-├── praesentation/
-│   └── Praesentation_Tegel_Schwammstadt.pptx   Abschlusspräsentation
-├── power-bi/
-│   └── Grundwasser.pbix    Power-BI-Auswertung des Teams (Diagramme, Berechnungen)
 ├── nachweise/
 │   └── Eigenstaendigkeitserklaerung_KI-Verzeichnis.pdf   Erklärung + KI-Verzeichnis
 ├── docs/             fertige Website (GitHub Pages)
@@ -129,6 +125,8 @@ Danach folgen **Methodik** und **Quellenverzeichnis** (jede Zahl ist verlinkt).
 │   ├── tegel-datastory-einzeldatei.html  eine Datei, Fotos online
 │   ├── img/                           Fotos (Wikimedia Commons)
 │   └── screenshots/                   Screenshots für diese README
+├── Praesentation_Tegel_Schwammstadt.pdf   Abschlusspräsentation
+├── Grundwasser.pbix    Power-BI-Auswertung des Teams (Diagramme, Berechnungen)
 ├── requirements.txt
 └── LICENSE
 ```
